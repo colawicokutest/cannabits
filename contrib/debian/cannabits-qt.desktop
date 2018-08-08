@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CANNABITS
+Comment=CANNABITS P2P Cryptocurrency
+Comment[fr]=CANNABITS, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CANNABITS, eşten eşe kriptografik sanal para birimi
+Exec=cannabits-qt %u
+Terminal=false
+Type=Application
+Icon=cannabits128
+MimeType=x-scheme-handler/cannabits;
+Categories=Office;Finance;

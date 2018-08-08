@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/cannabits_bg.qm</file>
+        <file alias="ca">locale/cannabits_ca.qm</file>
+        <file alias="cs">locale/cannabits_cs.qm</file>
+        <file alias="da">locale/cannabits_da.qm</file>
+        <file alias="de">locale/cannabits_de.qm</file>
+        <file alias="en">locale/cannabits_en.qm</file>
+        <file alias="en_US">locale/cannabits_en_US.qm</file>
+        <file alias="es">locale/cannabits_es.qm</file>
+        <file alias="fi">locale/cannabits_fi.qm</file>
+        <file alias="fr_FR">locale/cannabits_fr_FR.qm</file>
+        <file alias="it">locale/cannabits_it.qm</file>
+        <file alias="ja">locale/cannabits_ja.qm</file>
+        <file alias="ko_KR">locale/cannabits_ko_KR.qm</file>
+        <file alias="nl">locale/cannabits_nl.qm</file>
+        <file alias="pl">locale/cannabits_pl.qm</file>
+        <file alias="pt">locale/cannabits_pt.qm</file>
+        <file alias="pt_BR">locale/cannabits_pt_BR.qm</file>
+        <file alias="ro_RO">locale/cannabits_ro_RO.qm</file>
+        <file alias="ru">locale/cannabits_ru.qm</file>
+        <file alias="sk">locale/cannabits_sk.qm</file>
+        <file alias="sv">locale/cannabits_sv.qm</file>
+        <file alias="tr">locale/cannabits_tr.qm</file>
+        <file alias="uk">locale/cannabits_uk.qm</file>
+        <file alias="zh_CN">locale/cannabits_zh_CN.qm</file>
+        <file alias="zh_TW">locale/cannabits_zh_TW.qm</file>
+    </qresource>
+</RCC>

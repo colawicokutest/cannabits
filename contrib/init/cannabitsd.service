@@ -1,0 +1,26 @@
+[Unit]
+Description=CANNABITS's distributed currency daemon
+After=network.target
+
+[Service]
+User=cannabits
+Group=cannabits
+
+Type=forking
+PIDFile=/var/lib/cannabitsd/cannabitsd.pid
+
+ExecStart=/usr/bin/cannabitsd -daemon -pid=/var/lib/cannabitsd/cannabitsd.pid \
+          -conf=/etc/cannabits/cannabits.conf -datadir=/var/lib/cannabitsd
+
+ExecStop=-/usr/bin/cannabits-cli -conf=/etc/cannabits/cannabits.conf \
+         -datadir=/var/lib/cannabitsd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,26 @@
+# /etc/conf.d/cannabitsd: config file for /etc/init.d/cannabitsd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/cannabits/cannabits.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/cannabitsd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/cannabitsd.pid"
+
+# Where to write cannabitsd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/cannabitsd"
+
+# User and group to own cannabitsd process
+#BITCOIND_USER="cannabits"
+#BITCOIND_GROUP="cannabits"
+
+# Path to cannabitsd executable
+#BITCOIND_BIN="/usr/bin/cannabitsd"
+
+# Nice value to run cannabitsd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
